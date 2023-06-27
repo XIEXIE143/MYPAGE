@@ -1,0 +1,119 @@
+body {
+    color: rgb(65, 66, 67);
+    background: #fcfcfc;
+    /* font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'メイリオ', 'Meiryo', "Helvetica Neue", sans-serif; */
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    line-height: 2.0rem;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(33, 87, 135);
+    /* 16px x 1.5 = 24px */
+    font-size: 2.5em;
+    /* font-size: 24px; */
+    text-align: center;
+}
+
+h2 {
+    color: #355f84;
+    font-size: 1.2em;
+    /* border: 1px solid #355f84; */
+    /* border-radius: 10px; */
+    border-bottom: 1px solid #355f84;
+    padding: 10px 15px;
+}
+
+h2::before {
+    /* content: "\01f414"; */
+    content: "-";
+    margin-right: 10px;
+}
+
+footer {
+    padding: 10px 15px;
+    background: #355f84;
+    color: #ffffff;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #0084ff;
+}
+
+/* aリンクにマウスオーバーしたとき */
+a:hover {
+    color: red;
+}
+
+/* class=banner */
+.banner {
+    color: white;
+    background: lightgray;
+}
+
+/* id=latest-posts */
+#latest-posts {
+    color: rgb(69, 72, 74);
+}
+
+/* headerタグのliだけ指定 */
+header ul {
+    display: flex;
+    padding: 0;
+}
+
+header li {
+    list-style: none;
+    padding: 20px;
+}
+
+.date-label {
+    /* background-color: #c63131; */
+    background: #457aab;
+    color: #ffffff;
+    font-size: 0.5rem;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+.new {
+    color: #c63131;
+    font-size: 0.7rem;
+    padding: 10px;
+}
+
+#latest-posts ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* #latest-posts { */
+    /* margin: 20px 0; */
+/* } */
+
+.background {
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 30%;
+}
+
+#top .background {
+    background-image: url(../images/tokyo_station.jpg);
+}
+
+#profile .background {
+    background-image: url(../images/ez.jpg);
+}
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-image {
+    text-align: center;
+}

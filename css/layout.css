@@ -1,0 +1,35 @@
+.color1 {
+    background-color: rgb(177, 72, 72);
+}
+
+.color2 {
+    background-color: rgb(114, 184, 172);
+}
+
+.color3 {
+    background-color: rgb(193, 173, 73);
+}
+
+.color4 {
+    background-color: rgb(72, 144, 177);
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+#float-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#float-menu li {
+    float: left;
+    padding: 20px;
+}
+
+#float-menu nav {
+    overflow: hidden;
+}
